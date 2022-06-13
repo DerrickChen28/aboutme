@@ -7,10 +7,42 @@
   margin-top: 60px;
 }
 body{
-  background-color: aqua;
+
 }
 
 h1{
   text-align: center;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: pink; 
 
+}
+
+header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+  position:sticky;
+  top: 0
+
+}
+ul{
+  display: flex;
+  list-style-type: none;
+ 
+}
+
+ul li a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: #3a3a3a;
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+}
+ul li a:hover{
+  color: #f8f8f8;
 }
